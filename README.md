@@ -9,5 +9,5 @@ Clone and configure the full mono-repo environment using [star-setup](https://gi
 
 ```bash
 # Example - refer to star-setup docs for full usage
-star-setup starlet-engine/samples
+star-setup username/repo
 ```
