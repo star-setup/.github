@@ -2,13 +2,19 @@
 
 A lightweight CLI to clone, configure, and wire single or multi-repo ecosystems.
 
+> **Note:** This tool is primarily designed for my own projects and workflows. While it may work for other ecosystems, it is not guaranteed to work with all project structures or build configurations.
+
+[![License](https://img.shields.io/github/license/star-setup/.github)](https://github.com/star-setup/.github/blob/main/LICENSE)
+
+See [star-setup/core](https://github.com/star-setup/core) for full documentation.
+
 ## Repositories
 
-| Repo | Description |
-| ---- | ----------- |
-| [core](https://github.com/star-setup/core) | Rust CLI — the main binary |
-| [homebrew-tap](https://github.com/star-setup/homebrew-tap) | Homebrew formula tap |
-| [py-wrapper](https://github.com/star-setup/py-wrapper) | PyPI distribution |
+| Name/Category | URL(s) | Description |
+| ------------- | ------ | ----------- |
+| Core | [GitHub](https://github.com/star-setup/core), [npm](https://www.npmjs.com/package/@star-setup/star-setup) | The main rust CLI binary |
+| Homebrew Tap | [GitHub](https://github.com/star-setup/homebrew-tap) | Homebrew formula tap |
+| Py Wrapper | [GitHub](https://github.com/star-setup/py-wrapper), [pypi](https://pypi.org/project/star-setup/) | PyPI distribution |
 
 ## Install
 
@@ -28,5 +34,3 @@ powershell -ExecutionPolicy Bypass -c "irm https://github.com/star-setup/core/re
 # pip
 pip install star-setup
 ```
-
-See [star-setup/core](https://github.com/star-setup/core) for full documentation.
